@@ -52,7 +52,7 @@ func main() {
 	)
 	if err != nil {
 		log.Fatal("error creating client:", err.Error())
-	}
+	}  
 
 	reddit, err := redditbot.NewReddit(cfg.Reddit)
 	if err != nil {
